@@ -1,4 +1,4 @@
-# Sistema de RPS
+# Sistema de Controle de RPS
 
 
 ## Índices
@@ -6,13 +6,13 @@
 0. [Página Inícial - Informações, Descritivos da Solução e Projeto](#)
 1. [Mapeamento de Domínios Funcionais e Capacidades de Negócio](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/1.%20Mapeamento%20de%20Dom%C3%ADnios%20Funcionais%20e%20Capacidades%20de%20Neg%C3%B3cio/README.md)
 2. [Refinamento de Requisitos Funcionais e Não Funcionais](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/2.%20Requisitos%20Funcionais%20e%20N%C3%A3o-Funcionais/README.md)
-3. [Arquitetura Alvo - Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/3.%20Desenho%20da%20solu%C3%A7%C3%A3o%20completo%20(Arquitetura%20Alvo)/README.md)
-4. [Escolha de Ferramentas, Tecnologias e Arquitetura para o Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/4.%20Justificativa%20na%20decis%C3%A3o-escolha%20de%20ferramentas-tecnologias%20e%20de%20tipo%20de%20arquitetura/README.md)
-5. [Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/5.%20Pode%20ser%20feito%20na%20linguagem%20que%20voc%C3%AA%20domina/README.md)
-6. [Estratégia de Testes para o Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/6.%20Testes/README.md)
-7. [Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/7.%20Hospedar%20em%20reposit%C3%B3rio%20publico%20(GitHub)/README.md)
+3. [Arquitetura Alvo - Sistema de Controle de RPS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/3.%20Desenho%20da%20solu%C3%A7%C3%A3o%20completo%20(Arquitetura%20Alvo)/README.md)
+4. [Escolha de Ferramentas, Tecnologias e Arquitetura para o Sistema de Controle de RPS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/4.%20Justificativa%20na%20decis%C3%A3o-escolha%20de%20ferramentas-tecnologias%20e%20de%20tipo%20de%20arquitetura/README.md)
+5. [Sistema de Controle de RPS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/5.%20Pode%20ser%20feito%20na%20linguagem%20que%20voc%C3%AA%20domina/README.md)
+6. [Estratégia de Testes para o Sistema de Controle de RPS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/6.%20Testes/README.md)
+7. [Controle de Fluxo de Emissão de Nota Fiscal](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/7.%20Hospedar%20em%20reposit%C3%B3rio%20publico%20(GitHub)/README.md)
 8. [Requisitos diferenciais](#)
-   - 1. [Desenho da solução da Arquitetura de Transição se necessária, considerando uma migração de legado](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/1.%20Desenho%20da%20solu%C3%A7%C3%A3o%20da%20Arquitetura%20de%20Transi%C3%A7%C3%A3o%2C%20migra%C3%A7%C3%A3o%20do%20legado/README.md)
+   - 1. [Desenho da Solução, Arquitetura de Transição, migração de legado, refactor por unidade para microservices e microfrontend](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/1.%20Desenho%20da%20solu%C3%A7%C3%A3o%20da%20Arquitetura%20de%20Transi%C3%A7%C3%A3o%2C%20migra%C3%A7%C3%A3o%20do%20legado/README.md)
    - 2. [Estimativa de Custos para Migração de Sistema Legado](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/tree/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/2.%20Estimativa%20de%20custos%20com%20infraestrutura%20e%20licen%C3%A7as)
    - 3. [Monitoramento e Observabilidade em Migração de Sistema Legado](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/1.%20Desenho%20da%20solu%C3%A7%C3%A3o%20da%20Arquitetura%20de%20Transi%C3%A7%C3%A3o%2C%20migra%C3%A7%C3%A3o%20do%20legado/README.md)
    - 4. [Critérios de Segurança para Consumo e Integração de Serviços](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/4.%20Crit%C3%A9rios%20de%20seguran%C3%A7a%20para%20consumo%20(integra%C3%A7%C3%A3o)%20de%20servi%C3%A7os/README.md)
@@ -20,20 +20,43 @@
 
 ## Informações, Descritivos da Solução e Projeto
 
-Este projeto visa implementar uma solução para oContole de PDS com backend em **Node.js** e frontend em **React Native**, ambos hospedados na **Azure**. O sistema processa lançamentos financeiros (débitos e créditos) e gera relatórios consolidados diários. A solução utiliza os principais serviços da **Azure**, garantindo escalabilidade, alta disponibilidade e monitoramento.
+Este projeto visa implementar uma solução para o Sistema de Controle de RPS com backend em **Java LTS** e frontend em **Angular | React Native (opcional)**, ambos hospedados na **Azure**. O sistema processa lançamentos financeiros (débitos e créditos) e gera relatórios consolidados diários. A solução utiliza os principais serviços da **Azure**, garantindo escalabilidade, alta disponibilidade e monitoramento.
 
 ## Arquitetura da Solução
 
-### C1
+### Sistema para Consulta da Nota Gerada
+### Nível C1
 
-![alt text](/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/0.%20default/10.%20C4/C1/structurizr-SystemContext-001%20(3).png)
+![alt text](Sistema%20para%20Consulta%20da%20Nota%20Gerada/image-1.png)
 
 
-![alt text](/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/0.%20default/10.%20C4/C1/structurizr-SystemContext-001%20(4).png)
+### Nível C2
 
-### C2
+![alt text](Sistema%20para%20Consulta%20da%20Nota%20Gerada/image-2.png)
 
-![alt text](/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/0.%20default/10.%20C4/C2/structurizr-Container-001%20(5).png)
+
+### Sistema para Processamento de RPS
+### Nível C1
+
+![alt text](Sistema%20para%20Processamento%20de%20RPS/image-1.png)
+
+
+### Nível C2
+
+![alt text](Sistema%20para%20Processamento%20de%20RPS/image-2.png)
+
+
+
+### Sistema para Recepção do RPS
+### Nível C1
+
+![alt text](Sistema%20para%20Recepção%20do%20RPS/image-1.png)
+
+
+### Nível C2
+
+![alt text](Sistema%20para%20Recepção%20do%20RPS/image-2.png)
+
 
 ### Componentes Principais:
 
@@ -41,12 +64,12 @@ Este projeto visa implementar uma solução para oContole de PDS com backend em 
    - **Função**: Balanceamento de carga global e entrega de tráfego.
    - **Objetivo**: Distribuir o tráfego de usuários entre o frontend e o backend, garantindo alta disponibilidade e resposta rápida.
 
-2. **Azure App Service (Backend Node.js)**:
+2. **Azure App Service (Backend Java LTS)**:
    - **Função**: API backend que gerencia o fluxo de lançamentos financeiros e relatórios consolidados.
    - **Escalabilidade**: Escala automaticamente com base na carga de trabalho.
    
-3. **Azure App Service (Frontend React Native)**:
-   - **Função**: Hospeda o frontend da aplicação React Native.
+3. **Azure App Service (Frontend Angular | React Native (opcional))**:
+   - **Função**: Hospeda o frontend da aplicação Angular | React Native (opcional).
    - **Comunicação**: Interage com o backend para registrar transações e consultar relatórios.
 
 4. **Azure SQL Database / PostgreSQL**:
@@ -73,10 +96,10 @@ Este projeto visa implementar uma solução para oContole de PDS com backend em 
 - **Balanceamento de carga**: Distribui o tráfego globalmente para o frontend e o backend, garantindo resposta rápida e alta disponibilidade.
 
 ### Azure App Service:
-- **Backend Node.js**:
+- **Backend Java LTS**:
   - Processa transações financeiras e consolidação de dados diários.
   - Comunicação com Azure SQL Database e Azure Event Hub.
-- **Frontend React Native**:
+- **Frontend Angular | React Native (opcional)**:
   - Interface para o usuário final.
   - Comunicação com a API Backend.
 
@@ -128,7 +151,7 @@ Aqui está uma estimativa de custos aproximados com base nos serviços usados na
 
 ## Conclusão
 
-A arquitetura de nuvem Azure proposta para o backend em Node.js e frontend em React Native é projetada para garantir:
+A arquitetura de nuvem Azure proposta para o backend em Java LTS e frontend em Angular | React Native (opcional) é projetada para garantir:
 
 - **Alta Disponibilidade**: Com balanceamento de carga e serviços redundantes.
 - **Escalabilidade**: A infraestrutura pode crescer automaticamente para lidar com picos de tráfego.
