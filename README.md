@@ -1,21 +1,15 @@
 # Sistema de RPS
 
-- *(MODELO CORPORATIVO DE NORMAS DA ARQUITETURA DE REFERÊNCIA, INOVAÇÃO E LEGADOS).*
-- *(APLICADO EM TODOS OS CLIENTES EM MODELO DE REUSO).* 
-- *(MODELO DE README.MD QUE APLIQUEI EM CLIENTES INTERNACIONAIS NA AMERICA DO NORTE/EUROPA/INDIA/JAPÃO E AUSTRÁLIA).* 
-- *(TRADUZIDO PARA ESSE TESTE AQUI EM PORTUGUÊS).*
-
----
 
 ## Índices
 
 0. [Página Inícial - Informações, Descritivos da Solução e Projeto](#)
 1. [Mapeamento de Domínios Funcionais e Capacidades de Negócio](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/1.%20Mapeamento%20de%20Dom%C3%ADnios%20Funcionais%20e%20Capacidades%20de%20Neg%C3%B3cio/README.md)
 2. [Refinamento de Requisitos Funcionais e Não Funcionais](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/2.%20Requisitos%20Funcionais%20e%20N%C3%A3o-Funcionais/README.md)
-3. [Arquitetura Alvo - Sistema de Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/3.%20Desenho%20da%20solu%C3%A7%C3%A3o%20completo%20(Arquitetura%20Alvo)/README.md)
-4. [Escolha de Ferramentas, Tecnologias e Arquitetura para o Sistema de Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/4.%20Justificativa%20na%20decis%C3%A3o-escolha%20de%20ferramentas-tecnologias%20e%20de%20tipo%20de%20arquitetura/README.md)
-5. [Sistema de Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/5.%20Pode%20ser%20feito%20na%20linguagem%20que%20voc%C3%AA%20domina/README.md)
-6. [Estratégia de Testes para o Sistema de Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/6.%20Testes/README.md)
+3. [Arquitetura Alvo - Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/3.%20Desenho%20da%20solu%C3%A7%C3%A3o%20completo%20(Arquitetura%20Alvo)/README.md)
+4. [Escolha de Ferramentas, Tecnologias e Arquitetura para o Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/4.%20Justificativa%20na%20decis%C3%A3o-escolha%20de%20ferramentas-tecnologias%20e%20de%20tipo%20de%20arquitetura/README.md)
+5. [Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/5.%20Pode%20ser%20feito%20na%20linguagem%20que%20voc%C3%AA%20domina/README.md)
+6. [Estratégia de Testes para o Sistema deContole de PDS](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/6.%20Testes/README.md)
 7. [Controle de Fluxo de Caixa](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/7.%20Hospedar%20em%20reposit%C3%B3rio%20publico%20(GitHub)/README.md)
 8. [Requisitos diferenciais](#)
    - 1. [Desenho da solução da Arquitetura de Transição se necessária, considerando uma migração de legado](https://github.com/kleberimeusp/desafio-arquiteto-solucao-ago2024/blob/main/Sistema%20de%20Controle%20de%20Fluxo%20de%20Caixa/C4%20Model%20Architect/8.%20Requisitos%20diferenciais/1.%20Desenho%20da%20solu%C3%A7%C3%A3o%20da%20Arquitetura%20de%20Transi%C3%A7%C3%A3o%2C%20migra%C3%A7%C3%A3o%20do%20legado/README.md)
@@ -26,7 +20,7 @@
 
 ## Informações, Descritivos da Solução e Projeto
 
-Este projeto visa implementar uma solução para o controle de fluxo de caixa com backend em **Node.js** e frontend em **React Native**, ambos hospedados na **Azure**. O sistema processa lançamentos financeiros (débitos e créditos) e gera relatórios consolidados diários. A solução utiliza os principais serviços da **Azure**, garantindo escalabilidade, alta disponibilidade e monitoramento.
+Este projeto visa implementar uma solução para oContole de PDS com backend em **Node.js** e frontend em **React Native**, ambos hospedados na **Azure**. O sistema processa lançamentos financeiros (débitos e créditos) e gera relatórios consolidados diários. A solução utiliza os principais serviços da **Azure**, garantindo escalabilidade, alta disponibilidade e monitoramento.
 
 ## Arquitetura da Solução
 
